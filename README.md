@@ -1,57 +1,54 @@
-# Project Name
+---
+page_type: sample
+languages:
+- javascript
+products:
+- azure-signalr-service
+- azure-digital-twins
+- name: Azure Digital Twins-SignalR integration web app sample
+description: Web App component of the 'Integrate Azure Digital Twins with Azure SignalR Service' tutorial
+urlFragment: digital-twins-samples
+---
 
-(short, 1-3 sentenced, description of the project)
+## Purpose
 
-## Features
+This project contains the ReactJS web app component of the [*Tutorial: Integrate Azure Digital Twins with Azure SignalR Service*](https://docs.microsoft.com/azure/digital-twins/how-to-integrate-azure-signalr)
 
-This project framework provides the following features:
+## Setup
 
-* Feature 1
-* Feature 2
-* ...
+Get the samples by downloading this repository as a ZIP file to your machine.
 
-## Getting Started
+## Sample project contents
+The sample repo contains:
 
-### Prerequisites
+| File/folder | Description |
+| --- | --- |
+| `src/App.js` | React web app that shows how to consume Azure Digital Twins telemetry data from an Azure SignalR service |
 
-(ideally very short, if any)
+## Prerequisites
 
-- OS
-- Library version
-- ...
+1. Have [Node.js](https://nodejs.org/en/) installed on your machine
 
-### Installation
+## Instructions
 
-(ideally very short)
+The instructions for working with these samples are included in the [Azure Digital Twins documentation](https://docs.microsoft.com/azure/digital-twins/).
 
-- npm install [package name]
-- mvn install
-- ...
+#### Building scenario:
+* [*Tutorial: Integrate Azure Digital Twins with Azure SignalR Service*](https://docs.microsoft.com/azure/digital-twins/how-to-integrate-azure-signalr)
 
-### Quickstart
-(Add steps to get up and running quickly)
+#### Deployment script:
+Instructions for running the script, and manual description of the automated steps within the script, are found in * [*Tutorial: Integrate Azure Digital Twins with Azure SignalR Service*](https://docs.microsoft.com/azure/digital-twins/how-to-integrate-azure-signalr).
 
-1. git clone [repository clone url]
-2. cd [respository name]
-3. ...
+## Contributing
 
+This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
+the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
-## Demo
+When you submit a pull request, a CLA bot will automatically determine whether you need to provide
+a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
+provided by the bot. You will only need to do this once across all repos using our CLA.
 
-A demo app is included to show how to use the project.
-
-To run the demo, follow these steps:
-
-(Add steps to start up the demo)
-
-1.
-2.
-3.
-
-## Resources
-
-(Any additional resources or related projects)
-
-- Link to supporting information
-- Link to similar sample
-- ...
+This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
+contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.

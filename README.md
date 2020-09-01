@@ -5,7 +5,7 @@ languages:
 products:
 - azure-signalr-service
 - azure-digital-twins
-- name: Azure Digital Twins-SignalR integration web app sample
+name: Azure Digital Twins-SignalR integration web app sample
 description: Web App component of the 'Integrate Azure Digital Twins with Azure SignalR Service' tutorial
 urlFragment: digital-twins-samples
 ---

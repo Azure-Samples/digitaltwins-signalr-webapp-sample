@@ -18,7 +18,7 @@ export default class App extends Component {
 
     componentDidMount() {
         const hubConnection = new HubConnectionBuilder()
-            .withUrl('<Azure Function Endpoint>')
+            .withUrl('<Function URL>')
             .build();
 
         this.setState({ hubConnection }, () => {
